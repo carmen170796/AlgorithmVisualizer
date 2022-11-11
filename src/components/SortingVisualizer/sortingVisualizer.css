@@ -1,0 +1,35 @@
+.sorting-container{
+    height: 100%;
+    padding: 1rem 1rem;
+}
+
+.bars-container{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+.bar{
+    margin: 0px  0px 0px 3px;
+}
+
+.buttons-container{
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+    row-gap: 10px;
+}
+
+button {
+    all:unset;
+    padding: 0.25rem;
+    cursor: pointer;
+    color: white;
+    font-weight: bolder;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
